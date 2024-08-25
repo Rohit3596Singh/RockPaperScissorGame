@@ -3,49 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <title>celebration</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header">
+    <button id="playAgainCelebration" onclick="window.location.href='index.html'">Play Again</button>
+    <!-- <button id="playAgain" onclick="window.location.href='index.html'">Play Again</button> -->
 
-        <div class="text">
-            <p>ROCK</p>
-            <p>PAPER</p>
-            <p>SCISSORS</p>
-        </div>
-
-        <!-- <div id="score"> -->
-            <div class="left-box">
-                <p>COMPUTER<br>SCORE</p>
-                <input type="text" class="computerScore" placeholder="0" readonly>
-            </div>
-            <div class="right-box">
-                <p>YOUR<BR>SCORE</p>
-                <input type="text" class="yourScore" placeholder="0" readonly >
-            </div>
-            <!-- <span class="computerScore">COMPUTER<br>SCORE</span>
-            <br>
-            <span class="yourScore">YOUR<br>SCORE</span> -->
-        <!-- </div> -->
-
-    </div>
-
-    <div class="game">
-        
-        <img id="stone" src="./assets/rock.png" alt="rock">
-        <img id="paper" src="./assets/paper.png" alt="paper">
-        <!-- <img id ="scissor" src="./assets/scissor.png" alt="scissor"> -->
-    </div>
-
-    <div class="result">
-        <h1>TIE UP</h1>
-        <H2>AGAINST PC</H2>
-    </div>
-    <button id="playAgain" onclick="window.location.href='index.html'">Play Again</button>
-
-    <div id="box-popup">
+    <div id="box-popup-celebration">
         <h3>Game Rules</h3><br>
     
             <p>Rock beats scissors, scissors beat paper, and paper beats rock.</p><br>
@@ -53,16 +18,32 @@
             <p>Use rock, paper, scissors to settle minor decisions or simply play to pass the time</p><br>
             <p>If both players lay down the same hand, each player lays down another hand</p><br>
     
-        <button id="close" onclick="closeForm()" style="color: rgb(224, 65, 65);">CLOSE</button>
+        <button id="close" onclick="closeFormCelebration()" style="color: rgb(224, 65, 65);">CLOSE</button>
         
     </div>
 
     
-    <button id="rules" onclick="openForm()" style="color: aliceblue;">RULES</button>
-    <!-- <button id="next" onclick="window.location.href='celebration.html'">NEXT</button> -->
+    <button id="rulesCelebration" onclick="openFormCelebration()" style="color: aliceblue;">RULES</button>
+    <img class="trophy" src="./assets/Vector.png" alt="trophy">
+
+
+    <div class="confetti">
+        <div class="confetti-piece"></div>
+        <div class="confetti-piece"></div>
+        <div class="confetti-piece"></div>
+        <div class="confetti-piece"></div>
+        <div class="confetti-piece"></div>
+        <div class="confetti-piece"></div>
+        <div class="confetti-piece"></div>
+        <div class="confetti-piece"></div>
+        <div class="confetti-piece"></div>
+        <div class="confetti-piece"></div>
+        <div class="confetti-piece"></div>
+        <div class="confetti-piece"></div>
+        <div class="confetti-piece"></div>
+    </div>
 
     
-
-    <script src="script.js"></script>
+    <script src="script.js"></script>    
 </body>
 </html>
