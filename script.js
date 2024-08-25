@@ -162,10 +162,10 @@ function closeForm(){
     document.getElementById("box-popup").style.display="none";
 }
 
-function openForm(){
+function openFormCelebration(){
     document.getElementById("box-popup-celebration").style.display="block";
 }
 
-function closeForm(){
+function closeFormCelebration(){
     document.getElementById("box-popup-celebration").style.display="none";
 }
